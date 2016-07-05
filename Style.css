@@ -105,38 +105,161 @@
 
 .newProducts {
     width: 870px;
-    height: 724px;
+    /*height: 724px;*/
     float: right;
-    border: 1px solid #c0c0c0;
+    /*border: 1px solid #c0c0c0;*/
     margin-right: 165px;
+    margin-top: 20px;
+}
+
+.newProducts > h2 {
+    color: #707070;
+    font: italic 900 22px Roboto;    
+}
+
+.newProducts > div {
+    width: 270px;
+    height: 320px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.newProducts > div > h3 {
+    color: #333333;
+    font: italic 900 20px / 18.012px Roboto;
+    margin-top: 32px;
+    margin-left: 20px;
+    float: left;
+}
+
+.newProducts > div > h2 {
+    color: #333333;
+    font: italic 900 25px Roboto;
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+.newProducts a {
+    display: block;
+}
+
+.newProducts a img {
+    display: block;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
 .topProducts {
     width: 870px;
-    height: 400px;
+    /*height: 400px;*/
     float: right;
-    border: 1px solid #c0c0c0;
+    /*border: 1px solid #c0c0c0;*/
     margin-right: 165px;
     margin-top: 70px;
 }
 
+.topProducts > h2 {
+    color: #707070;
+    font: italic 900 22px Roboto;    
+}
+.topProducts > div {
+    width: 270px;
+    height: 320px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.topProducts > div > h3 {
+    color: #333333;
+    font: italic 900 20px / 18.012px Roboto;
+    margin-top: 32px;
+    margin-left: 20px;
+    float: left;
+}
+
+.topProducts > div > h2 {
+    color: #333333;
+    font: italic 900 25px Roboto;
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+.topProducts a {
+    display: block;
+}
+
+.topProducts a img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;    
+}
+
 .saleProducts {
     width: 870px;
-    height: 400px;
+    /*height: 400px;*/
     float: right;
-    border: 1px solid #c0c0c0;
+    /*border: 1px solid #c0c0c0;*/
     margin-right: 165px;
     margin-top: 50px;
 }
 
+.saleProducts > h2 {
+    color: #707070;
+    font: italic 900 22px Roboto;    
+}
+.saleProducts > div {
+    width: 270px;
+    height: 320px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.saleProducts > div > h3 {
+    color: #333333;
+    font: italic 900 20px / 18.012px Roboto;
+    margin-top: 32px;
+    margin-left: 20px;
+    float: left;
+}
+
+.saleProducts > div > h2 {
+    color: #333333;
+    font: italic 900 25px Roboto;
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+.saleProducts a {
+    display: block;
+}
+
+.saleProducts a img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;    
+}
+
 .Pots {
     width: 870px;
-    height: 500px;
+    /*height: 500px;*/
     float: right;
     /*border: 1px solid #000;*/
     margin-right: 165px;
     margin-top: 85px;
+}
+
+.Pots h3 {
+    color: #707070;
+    font: italic 900 22px Roboto;    
 }
 
 .Pots > div {
@@ -149,18 +272,39 @@
 }
 
 .Pots > div > a > img {
-    width: 250px;
+    /*width: 250px;*/
+    display: block;
+    margin: 0 auto;
     margin-top: 50px;
-    margin-left: 10px;
+}
+
+.Pots > div > h3 {
+    color: #333333;
+    font: italic 900 20px / 18.012px Roboto;
+    margin-top: 32px;
+    margin-left: 20px;
+    float: left;
+}
+
+.Pots > div > h2 {
+    color: #333333;
+    font: italic 900 25px Roboto;
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
 }
 
 .Grills {
     width: 870px;
-    height: 500px;
+    /*height: 500px;*/
     float: right;
-    /*border: 1px solid #000;*/
     margin-right: 165px;
     margin-top: 70px;
+}
+
+.Grills h3 {
+    color: #707070;
+    font: italic 900 22px Roboto;    
 }
 
 .Grills > div {
@@ -172,13 +316,39 @@
     background-color: #fff;
 }
 
+.Grills > div > a > img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.Grills > div > h3 {
+    color: #333333;
+    font: italic 900 20px / 18.012px Roboto;
+    margin-top: 32px;
+    margin-left: 20px;
+    float: left;
+}
+
+.Grills > div > h2 {
+    color: #333333;
+    font: italic 900 25px Roboto;
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
 .SmokeHouses {
     width: 870px;
-    height: 500px;
+    /*height: 500px;*/
     float: right;
-    /*border: 1px solid #000;*/
     margin-right: 165px;
     margin-top: 70px;
+}
+
+.SmokeHouses h3 {
+    color: #707070;
+    font: italic 900 22px Roboto;    
 }
 
 .SmokeHouses > div {
@@ -188,6 +358,27 @@
     margin-top: 40px;
     margin-left: 15px;
     background-color: #fff;
+}
+
+.SmokeHouses > div > a > img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.SmokeHouses > div > h3 {
+    color: #333333;
+    font: italic 900 20px / 18.012px Roboto;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+.SmokeHouses > div > h2 {
+    color: #333333;
+    font: italic 900 25px Roboto;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right
 }
 
 .image {
@@ -200,14 +391,14 @@
 }
 
 .image > img {
-    float: left;
+    display: block;
+    margin: 0 auto;
     margin-top: 50px;
-    margin-left: 35px;
 }
 
 .description {
-    float: right;
-    margin-right: 380px;
+    float: left;
+    margin-left: 20px;
     margin-top: 100px;
     color: #353535;
     font: 700 24px Roboto;
@@ -215,8 +406,8 @@
 
 .price {
     float: right;
-    margin-right: 545px;
-    margin-top: 45px;
+    margin-right: 400px;
+    margin-top: 50px;
     color: #111111;
     font: italic 500 20.94px / 20px Roboto;
 }
@@ -260,7 +451,7 @@
 
 .productdescriptioncontent {
     width: 871px;
-    height: 269px;
+    height: 290px;
     float: left;
     color: #808080;
     font: 400 17px / 20px Verdana;
